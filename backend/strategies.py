@@ -16,7 +16,3 @@ class SmaCrossStrategy(bt.Strategy):
                     self.buy()
             elif self.crossover < 0:
                 self.sell()
-
-                
-
-
